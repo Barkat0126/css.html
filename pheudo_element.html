@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pheudo element</title>
+    <style>
+        p::after{
+            content: -"barkat"; 
+            color: aqua;
+        }
+        p::first-line{
+            color: aqua;
+        }
+        p::after{
+            content: "barkat";
+            color: blueviolet;
+        }
+        p::before{
+            content: "barkat";
+            color: blue;
+        }
+        p::first-letter{
+            color: brown;
+        }
+        p::selection{
+            color: black;
+            background-color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, voluptatem consequatur? Tenetur culpa ut odio, sed reiciendis inventore nisi adipisci minima perspiciatis ab maxime quo, placeat, ratione vero officia sapiente.</p>
+    <hr>
+
+    
+</body>
+</html>

@@ -1,0 +1,122 @@
+body{
+    background-color:aqua;
+    height: 100vh;
+}
+h1{
+    text-align: center;
+}
+
+.laptop_large,
+.laptop,
+.tablet,
+.mobile{
+    text-align: center;
+    line-height: 60px;
+    font-size: 30px;
+}
+
+/* ------------------------------ */
+/* ---------- max-1440px -------- */
+/* ------------------------------ */
+
+@media screen and (max-width: 1440px) {
+    h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    body{
+        background-color: green;
+    }
+    .laptop_large{
+        display: block;
+    }
+    .laptop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+}
+
+/* ------------------------------ */
+/* ---------- max-1024px -------- */
+/* ------------------------------ */
+
+@media screen and (max-width: 1024px) {
+    h1{
+        text-align: center;
+        margin-top: 20px;
+    }
+    body{
+        background-color: yellow;
+    }
+    .laptop_large{
+        display: none;
+    }
+    .laptop{
+        display: block;
+    }
+    .tablet{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+
+}
+
+/* ------------------------------ */
+/* ---------- max-768px --------- */
+/* ------------------------------ */
+
+@media screen and (max-width: 768px) {
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color: chartreuse;
+    }
+    .tablet{
+        display: block;
+    }
+    .laptop_large{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .mobile{
+        display: none;
+    }
+
+    
+}
+
+/* ------------------------------ */
+/* ---------- max-425px -------- */
+/* ------------------------------ */
+
+@media screen and (max-width:425px) {
+    h1{
+        text-align: center;
+    }
+    body{
+        background-color: darkmagenta;
+    }
+    .mobile{
+        display: block;
+    }
+    .laptop_large{
+        display: none;
+    }
+    .laptop{
+        display: none;
+    }
+    .tablet{
+        display: none;
+    }
+    
+}

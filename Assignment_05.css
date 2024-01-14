@@ -1,0 +1,256 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #111827;
+    color: white;
+}
+
+
+/* ------------------------------ */
+/* ---------- nav-bar ------------ */
+/* ------------------------------ */
+
+/*.horizontal-divider{
+    height: 10px;
+    width: 135px;
+    background-color: blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}*/
+
+nav img{
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+
+.nav-img{
+    display: none;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content:end;
+    flex-direction: row;
+    gap: 10px;
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li{
+    font-size: 19px;
+    margin: 15px;
+    
+}
+/*-----home button-----*/
+.home{
+    background-color: #9393ff;
+    padding: 5px;
+    border-radius: 15px;
+    border-color: #9393ff;
+}
+
+/* ------------------------------ */
+/* ---------- main -------------- */
+/* ------------------------------ */
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.intro-line-1{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    font-size: 20px;
+}
+.intro-line-1 img{
+    height: 25px;
+
+}
+.intro-line-2 h1{
+    font-size: 60px;
+}
+.intro-line-2 h2{
+    font-size: 35px;
+    color: rgb(197, 197, 89);
+}
+.intro-right img{
+    height: 400px;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- section------------ */
+/* ------------------------------ */
+
+section div h1{
+    text-align: center;
+    margin-top: 80px;
+    text-decoration: underline;
+    
+}
+section img{
+    height: 200px;
+    align-items: center;
+    
+}
+section p{
+    text-align: center;
+}
+.project-list{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    margin: 40px;
+    row-gap: 20px;
+    column-gap: 20px;
+
+}
+/* ------------------------------ */
+/* ---------- footer ------------ */
+/* ------------------------------ */
+footer {
+    text-align: center;
+    text-decoration: underline;
+    margin: 40px;
+}
+footer img{
+    height: 20px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 5px;
+}
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    position: relative;
+    top: 20px;
+    
+}
+
+/* ------------------------------ */
+/* -------- media query ---------- */
+/* ------------------------------ */
+
+@media screen and (max-width: 576px) {
+
+    /* ------------------------------ */
+    /* --------- nav-bar ----------- */
+    /* ------------------------------ */
+    
+    .nav-img img{
+        display: none;
+        display: flex;
+        align-items: center;
+        height: 60px;
+        width: 40px;
+    }
+    img[alt="menu"]{
+        display: block;
+    }
+
+    .nav-img{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+    }
+
+    nav ul{
+        display:none;
+    }
+
+    /* ------------------------------ */
+    /* --------- main ------------- */
+    /* ------------------------------ */
+
+    .intro{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-line-1{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .intro-line-2 h2{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-right{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .intro-right img{
+        height: 350px;
+    }
+
+    /* ------------------------------ */
+    /* --------- section ----------- */
+    /* ------------------------------ */
+
+    .project-list{
+        display: block;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .project-title{
+        display: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 28px;
+    }
+    .project-list img{
+        height:300px;
+    }
+    .project-img p{
+        display:none;
+        display: flex;
+        justify-content: center;
+        font-size: 25px;
+    }
+
+
+    /* ------------------------------ */
+    /* --------- footer ------------- */
+    /* ------------------------------ */
+
+    footer h1{
+        display: none;
+        display: flex;
+        justify-content: center;
+        font-size: 35px;
+    }
+    .social{
+        display: none;
+        display: flex;
+    }
+    .social img{
+        display: none;
+        display: flex;
+        height: 30px;
+    }
+}

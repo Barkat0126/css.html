@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.container{
+    margin: auto;
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+
+
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    line-height: 7rem;
+    border: 1px solid;
+    padding: 20px;
+    line-height: 130px;
+
+}
+.top-right{
+    display: grid;
+    position: relative;
+    gap: 15px;
+}
+span{
+    text-align: center;
+}
+hr{
+    position: relative;
+    top: -25px;
+}
+.input-text{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+.input-password{
+    width: 15rem;
+    height: 2.5rem;
+    border-radius: 5px;
+}
+.log-in-btn{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 5px;
+    background-color: #2c56ed;
+    border-color: #2c56ed;
+    color: aliceblue;
+    font-weight: 600;
+}
+.create-btn{
+    width: 15rem;
+    height: 2rem;
+}

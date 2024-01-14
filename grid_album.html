@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>grid album</title>
+    <style>
+        .box11{
+            display: grid;
+            background-color: violet;
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            grid-template-rows: repeat(3,1fr);
+            
+        }
+        .container{
+            display: grid;
+            height: 700px;
+            margin: 10px;
+            grid-template-columns: repeat(3, 1fr);
+            
+            
+        }
+       .box{
+       /* height: 100px;
+        width: 100px;
+        margin: 10px;*/
+        margin: 10px;
+       }
+        
+        .box1{
+            background-color: red;
+            overflow: hidden;
+            grid-row-start: 1;
+            grid-row-end: 3;
+
+        }
+        .box2{
+            background-color: yellow;
+            overflow: hidden;
+        }
+        .box3{
+            background-color: green;
+            overflow: hidden;
+        }
+        .box4{
+            background-color: blue;
+            overflow: hidden;
+        }
+        .box5{
+            background-color: pink;
+            overflow: hidden;
+        }
+        .box6{
+            background-color: violet;
+            overflow: hidden;
+        }
+        .box7{
+            background-color: purple;
+            overflow: hidden;
+        }
+        .box8{
+            background-color: brown;
+            overflow: hidden;
+        }
+        .box9{
+            background-color: aqua;
+            overflow: hidden;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box box1"><img src="" alt="">
+        <div class="box11"></div>
+        <div class="box11"></div>
+        <div class="box11"></div>
+    </div>
+        <div class="box box2"><img src="https://images.pexels.com/photos/15364852/pexels-photo-15364852.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box3"><img src="https://images.pexels.com/photos/15329526/pexels-photo-15329526.jpeg?auto=compress&cs=tinysrgb&w=600" alt="" ></div>
+        <div class="box box4"><img src="https://images.pexels.com/photos/3862634/pexels-photo-3862634.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box5"><img src="https://images.pexels.com/photos/2773498/pexels-photo-2773498.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box6"><img src="https://images.pexels.com/photos/3825569/pexels-photo-3825569.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box7"><img src="https://images.pexels.com/photos/2599244/pexels-photo-2599244.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box8"><img src="https://images.pexels.com/photos/3861964/pexels-photo-3861964.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+        <div class="box box9"><img src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg?auto=compress&cs=tinysrgb&w=600" alt=""></div>
+    </div>
+    
+</body>
+</html>

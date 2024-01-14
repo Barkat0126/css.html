@@ -1,0 +1,97 @@
+*{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://raw.githubusercontent.com/pwlive/fullstackwebdevelopment/1f493053570bf725b7af69e53878f4f83fadfe56/Assignment_03(HTML%2BCSS)/assets/bg.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+img{
+    width: 92px;
+    height: 32px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    background-color: black;
+    gap: 64px;
+    padding: 10px 50px;
+    
+}
+.nav-logo{
+    cursor: pointer;
+}
+.line{
+    height: 50px;
+    width: 1px;
+    background-color: #fff;
+    
+}
+.list{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    gap: 50px;
+    position: relative;
+    left: 0px;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+.nav-button{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 110px;
+    justify-content: center;
+    font-weight: 600;
+    background-color: #ba31ba;
+    color: white;
+    border-radius: 7px;
+    border-color: #ba31ba;
+    position: absolute;
+    right: 70px;
+    top: 15px;
+    cursor: pointer;
+
+}
+
+/* ------------------------------ */
+/* ---------- MAIN ------------ */
+/* ------------------------------ */
+
+main{
+    
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 200px;
+    font-style: normal;
+}
+main h1{
+    font-size: 60px;
+    line-height: 60px;
+}
+main p{
+    font-size: 15px;
+    line-height: 50px;
+}
+.main-button{
+    height: 40px;
+    width: 180px;
+    font-weight: 700;
+    background-color: #ba31ba;
+    color: #fff;
+    border-radius: 6px;
+    border-color: #ba31ba;
+    
+}

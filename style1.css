@@ -1,0 +1,64 @@
+/*universal selector*/
+* {
+    background-color: #808080;
+}
+/* element selector*/
+p {
+    color: white;
+}
+/*class selector*/
+
+.pra {
+    color: blue;
+
+}
+.hello {
+    font-size: 30px;
+}
+
+/* ID selector*/
+
+#id1{
+    color: black;
+    background-color: blueviolet;
+}
+
+/* selector list*/
+
+.class1, .class5, .class7, .class10,{
+    
+}
+
+/* decendence selectors*/
+
+main p {
+    color: blue;
+}
+
+/*child sekectors*/
+
+h1 > p {
+    color: blueviolet;
+}
+
+/* adjacent sibling selectors*/
+
+section + p {
+    color: aqua;
+}
+
+/* general sibling selectors*/
+
+section ~ p {
+    color: blueviolet;
+}
+
+/* attribute selectors*/
+
+[target="_google.com"]{
+    color: aquamarine;
+}
+
+[alt~="pw"] {
+    color: rgb(228, 67, 102);
+}
